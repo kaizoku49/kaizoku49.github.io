@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Macaroni Art</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="mac-cheese/styles.css">
+    
+    <!-- import the webpage's javascript file -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="mac-cheese/mac-script.js" defer></script>
+  </head>  
+  <body>
+    
+    
+    <div id="tutorial">
+      Click and drag to start drawing with macaroni!
+    </div>
+    <div class="choices">
+      <div onclick="change(event, 'noodle')" class="select-wrapper">
+        <div style="width: 50px; height: 50px; border-radius: 50px;" id="noodle-but" class="select">
+          <img src="https://cdn.glitch.com/26c9b2a0-25e1-4ee0-b069-12e7269a1009%2Fmacaroni4.svg?1554246493313"/>
+        </div>
+        <div class="select-name">Macaroni</div>
+      </div>
+      <div onclick="change(event, 'fusilli')" class="select-wrapper">
+        <div id="fusilli-but" class="select">
+          <img src="https://cdn.glitch.com/26c9b2a0-25e1-4ee0-b069-12e7269a1009%2Ffusilli5.svg?1554246450461"/>
+        </div>
+        <div class="select-name">Fusilli</div>
+      </div>
+      <div onclick="change(event, 'sauce')" class="select-wrapper">
+        <div id="sauce-but" class="select">
+        </div>
+        <div class="select-name">Sauce</div>
+      </div>
+      <div onclick="change(event, 'cheese')" class="select-wrapper">
+        <div id="cheese-but" class="select">
+          <img src="https://cdn.glitch.com/26c9b2a0-25e1-4ee0-b069-12e7269a1009%2Fshredded2.svg?1554428627200"/>
+        </div>
+        <div class="select-name">Cheese</div>
+      </div>
+    </div>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    
+  </body>
+</html>

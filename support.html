@@ -1,0 +1,34 @@
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+<link href="support-page/style.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="navigation-container">
+  <button class="buoy" onclick="modal('Learn More')">Learn More</button>
+  <button class="buoy" onclick="modal('How to Help')">How to Help</button>
+  <button class="buoy" onclick="modal('Volunteer')">Volunteer</button>
+  <button class="buoy no-mobile" onclick="modal('Donate')">Donate</button>
+  <button class="buoy no-mobile" onclick="modal('Share')">Share</button>
+</div>
+
+<h1>BUOY MENU</h1>
+
+<div id="modal" style="display: none;">
+  <div id="modal-title"></div>
+  <div id="modal-text">
+    <p>this feature is not releaseed yet. it is still in testing</p>
+  </div>
+  <button onclick="closeModal()" id="modal-close">Close</button>
+</div>
+
+<div id="ocean-bottom"></div>
+<div id="sky-top"></div>
+
+<div id="wave-container" width="100%" height="100%">
+  
+</div>
+<script src="support-page/support-js.js"></script>
+</body>
+</html>
