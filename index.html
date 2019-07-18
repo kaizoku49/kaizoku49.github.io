@@ -15,13 +15,39 @@
     <meta name="msapplication-TileColor" content="#00aba9" />
     <meta name="msapplication-config" content="/icons/browserconfig.xml" />
     <meta name="theme-color" content="#ffffff" />-->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129420746-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-129420746-2');
+</script>
+
+<script>
+            function loop() {
+                var i, n, s = '';
+
+                for (i = 0; i < 10; i++) {
+                    n = Math.floor(Math.sin((Date.now()/200) + (i/2)) * 4) + 4;
+
+                    s += String.fromCharCode(0x2581 + n);
+                }
+
+                window.location.hash = s;
+
+                setTimeout(loop, 50);
+            }
+            
+            window.addEventListener('load', loop);
+        </script>
    </head>
   <body>
     <h1 style="font-family: google sans;">Strawhat</h1>
     <p>
       strawhat is a just a collection of useful apps to make our lives just a
-      little bit nicer.
+      little bit nicer. <a href="puzzle.html">Click here</a> if you love maths.:)
   </p>
     <button type="button" id='switch' style="font-family: google sans;"><b>Switch theme<b></button>
     <p>click this button to switch theme💥</p>
