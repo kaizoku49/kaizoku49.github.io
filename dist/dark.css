@@ -9,12 +9,9 @@
 
 
 :root {
-  /*--background-body: #202b38;
+  --background-body: #202b38;
   --background: #161f27;
-  --background-alt: #1a242f;*/
-  --background-body: #000000;
-  --background: #161f27;
-  --background-alt: #00000f;
+  --background-alt: #1a242f;
 
   --selection: #161f27;
 
