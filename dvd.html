@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Too Many DVDs</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="dvd/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    
+    <!-- import the webpage's javascript file -->
+    <script src="dvd/script.js" defer></script>
+  </head>  
+  <body>
+    <div id="controls">
+      <div id="corner-hits">CORNER HITS: 0</div>
+      <div id="amount"><input onchange="changeAmount()" id="amount-input" min="0" max="250" type="number" value="10"> DVD LOGOS</div>
+    </div>
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>
