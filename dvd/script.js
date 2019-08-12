@@ -1,6 +1,6 @@
 let interval = setInterval(run, 25);
 
-let dvdSize = 160;
+let dvdSize = 130;
 let corner = 0;
 
 var width = document.documentElement.clientWidth;
