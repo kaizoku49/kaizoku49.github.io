@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Dark-themed version:
  * uses dark theme by default but switches to light theme
  * if a system-wide theme preference is set on the user's device.
@@ -6,7 +6,6 @@
  * Variables will remain uncompiled so the theme can update dynamically
  * at runtime in the browser.
  */
-
 
 :root {
   --background-body: #202b38;
@@ -55,8 +54,9 @@
   --animation-duration: 0.1s;
   --button-hover: #dddddd;
 
-  --scrollbar-thumb-hover: rgb(32, 45, 56);
   --scrollbar-thumb: rgb(44, 63, 79);
+  --scrollbar-thumb-hover: rgb(32, 45, 56);
+
   --form-placeholder: #949494;
   --form-text: #000000;
 
@@ -360,11 +360,5 @@ tbody tr:nth-child(even) {
 ::selection {
   background-color: var(--selection);
 }
-@font-face {
-  font-family: sans;
-  src: url('fonts/sans.ttf');
-  font-family: psr;
-  src: url('fonts/psr.ttf');
 
-  
 /*# sourceMappingURL=dark.css.map */

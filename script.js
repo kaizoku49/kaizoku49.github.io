@@ -77,7 +77,7 @@
       const lightSchemeMql = matchMedia('(prefers-color-scheme: light)');
       const that = this;
 
-      this.themeDir = 'dist/';
+      this.themeDir = 'dist';
       this.stylesheet = document.getElementById(stylesheet);
       this.current = this.getThemeName(this.stylesheet.href);
       this.isDark = darkSchemeMql.matches;
