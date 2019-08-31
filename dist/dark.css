@@ -6,7 +6,10 @@
  * Variables will remain uncompiled so the theme can update dynamically
  * at runtime in the browser.
  */
-
+@font-face {
+font-family: "gsr";
+src: url("fonts/gsr.ttf");
+}
 :root {
   --background-body: #202b38;
   --background: #161f27;
