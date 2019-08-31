@@ -1,10 +1,7 @@
 /**
- * Light-themed version:
- * uses light theme by default but switches to dark theme
- * if a system-wide theme preference is set on the user's device.
- *
- * Variables will remain uncompiled so the theme can update dynamically
- * at runtime in the browser.
+ * Standalone light-themed version.
+ * Includes light variables and core, left as CSS variables
+ * so the theming can be adjusted at runtime.
  */
 
 :root {
@@ -33,36 +30,6 @@
 
   --variable: #39a33c;
   --highlight: #ffff00;
-}
-
-@media (prefers-color-scheme: dark) {
-:root {
-  --background-body: #202b38;
-  --background: #161f27;
-  --background-alt: #1a242f;
-
-  --selection: #161f27;
-
-  --text-main: #dbdbdb;
-  --text-bright: #ffffff;
-
-  --links: #41adff;
-  --focus: #0096bfab;
-  --border: #dbdbdb;
-  --code: #ffbe85;
-
-  --animation-duration: 0.1s;
-  --button-hover: #324759;
-
-  --scrollbar-thumb: var(--button-hover);
-  --scrollbar-thumb-hover: rgb(20, 20, 20);
-
-  --form-placeholder: #a9a9a9;
-  --form-text: #ffffff;
-
-  --variable: #d941e2;
-  --highlight: #efdb43;
-}
 }
 
 body {
@@ -489,4 +456,5 @@ tbody tr:nth-child(even) {
 ::selection {
   background-color: var(--selection);
 }
-/*# sourceMappingURL=light.css.map */
+
+/*# sourceMappingURL=light.standalone.css.map */
